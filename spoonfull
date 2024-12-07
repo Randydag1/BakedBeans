@@ -27,3 +27,12 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 autom4te.cache
+# Clone the repository
+git clone https://github.com/your-username/interconnected-ai-system.git
+
+# Navigate into the project folder
+cd interconnected-ai-system
+
+# Create the directory structure
+mkdir -p data models notebooks src
+touch src/{__init__.py,data_analysis.py,ai_learning.py,pathways.py}
